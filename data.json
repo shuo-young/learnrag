@@ -1,0 +1,12 @@
+[
+    {
+        "description": "Description of the attack or vulnerability",
+        "poc_code": "Proof of Concept (PoC) code",
+        "vulnerable_code": "The code snippet that is vulnerable"
+    },
+    {
+        "description": "Description of the attack or vulnerability",
+        "poc_code": "Proof of Concept (PoC) code",
+        "vulnerable_code": "The code snippet that is vulnerable"
+    }
+]

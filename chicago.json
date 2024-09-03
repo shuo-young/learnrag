@@ -1,0 +1,243 @@
+{
+    "normalizedInput": {
+        "line1": "",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60644"
+    },
+    "kind": "civicinfo#representativeInfoResponse",
+    "divisions": {
+        "ocd-division/country:us": {
+            "name": "United States",
+            "officeIndices": [
+                0,
+                1
+            ]
+        },
+        "ocd-division/country:us/state:il": {
+            "name": "Illinois",
+            "officeIndices": [
+                2
+            ]
+        },
+        "ocd-division/country:us/state:il/cd:7": {
+            "name": "Illinois's 7th congressional district",
+            "officeIndices": [
+                3
+            ]
+        }
+    },
+    "offices": [
+        {
+            "name": "President of the United States",
+            "divisionId": "ocd-division/country:us",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "headOfGovernment",
+                "headOfState"
+            ],
+            "officialIndices": [
+                0
+            ]
+        },
+        {
+            "name": "Vice President of the United States",
+            "divisionId": "ocd-division/country:us",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "deputyHeadOfGovernment"
+            ],
+            "officialIndices": [
+                1
+            ]
+        },
+        {
+            "name": "U.S. Senator",
+            "divisionId": "ocd-division/country:us/state:il",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "legislatorUpperBody"
+            ],
+            "officialIndices": [
+                2,
+                3
+            ]
+        },
+        {
+            "name": "U.S. Representative",
+            "divisionId": "ocd-division/country:us/state:il/cd:7",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "legislatorLowerBody"
+            ],
+            "officialIndices": [
+                4
+            ]
+        }
+    ],
+    "officials": [
+        {
+            "name": "Joseph R. Biden",
+            "address": [
+                {
+                    "line1": "1600 Pennsylvania Avenue Northwest",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20500"
+                }
+            ],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 456-1111"
+            ],
+            "urls": [
+                "https://www.whitehouse.gov/",
+                "https://en.wikipedia.org/wiki/Joe_Biden"
+            ],
+            "channels": [
+                {
+                    "type": "Twitter",
+                    "id": "potus"
+                }
+            ]
+        },
+        {
+            "name": "Kamala D. Harris",
+            "address": [
+                {
+                    "line1": "1600 Pennsylvania Avenue Northwest",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20500"
+                }
+            ],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 456-1111"
+            ],
+            "urls": [
+                "https://www.whitehouse.gov/",
+                "https://en.wikipedia.org/wiki/Kamala_Harris"
+            ],
+            "channels": [
+                {
+                    "type": "Twitter",
+                    "id": "VP"
+                }
+            ]
+        },
+        {
+            "name": "Dick Durbin",
+            "address": [
+                {
+                    "line1": "United States Senate",
+                    "line2": "711 Hart Senate Office Building",
+                    "line3": "",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20510"
+                },
+                {
+                    "line1": "230 S Dearborn Street",
+                    "line2": "Suite 3892",
+                    "line3": "",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "zip": "60604"
+                }
+            ],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 224-2152",
+                "(312) 353-4952",
+                "(217) 492-4062"
+            ],
+            "urls": [
+                "https://www.durbin.senate.gov/",
+                "https://en.wikipedia.org/wiki/Dick_Durbin"
+            ],
+            "photoUrl": "http://bioguide.congress.gov/bioguide/photo/D/D000563.jpg",
+            "channels": [
+                {
+                    "type": "Facebook",
+                    "id": "SenatorDurbin"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "SenatorDurbin"
+                }
+            ]
+        },
+        {
+            "name": "Tammy Duckworth",
+            "address": [
+                {
+                    "line1": "524 Hart Senate Office Building",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20510"
+                }
+            ],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 224-2854"
+            ],
+            "urls": [
+                "https://www.duckworth.senate.gov/",
+                "https://en.wikipedia.org/wiki/Tammy_Duckworth"
+            ],
+            "photoUrl": "http://bioguide.congress.gov/bioguide/photo/D/D000622.jpg",
+            "channels": [
+                {
+                    "type": "Facebook",
+                    "id": "SenDuckworth"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "SenDuckworth"
+                }
+            ]
+        },
+        {
+            "name": "Danny K. Davis",
+            "address": [
+                {
+                    "line1": "2159 Rayburn House Office Building",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20515"
+                }
+            ],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 225-5006"
+            ],
+            "urls": [
+                "https://davis.house.gov/",
+                "https://en.wikipedia.org/wiki/Danny_K._Davis"
+            ],
+            "photoUrl": "http://bioguide.congress.gov/bioguide/photo/D/D000096.jpg",
+            "emails": [
+                "davisk@mail.house.gov"
+            ],
+            "channels": [
+                {
+                    "type": "Facebook",
+                    "id": "OfficialRepDannyDavis"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "RepDannyDavis"
+                }
+            ]
+        }
+    ]
+}
